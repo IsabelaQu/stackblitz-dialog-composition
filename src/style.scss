@@ -1,0 +1,21 @@
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.index-pag {
+  background-image: url(/components/static/media/background-points.png);
+  background-size: contain;
+}
+body {
+  margin: 0;
+  font-family: poppins, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #525f7f;
+  text-align: left;
+  background-color: #171941;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
