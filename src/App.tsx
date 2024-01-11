@@ -1,12 +1,16 @@
 import { FC } from 'react';
 import { Dialog } from './components/Dialog';
-import {
+import { 
   InformationCircleIcon,
   ExclamationTriangleIcon,
   ChevronDoubleDownIcon,
 } from '@heroicons/react/24/outline';
 
-export const App: FC = () => {
+interface AppProps {
+  name: string;
+}
+
+const App: FC<AppProps> = ({ name }) => {
   const description: string =
     'This component can be rendered in various ways,\n making it possible to customize it, for example:' +
     '\n- Title, icon, description, and button' +
@@ -64,4 +68,8 @@ some storage blocks may be damaged."
       </div>
     </div>
   );
+
+  return <div>{name}</div>;
 };
+
+export default App;
