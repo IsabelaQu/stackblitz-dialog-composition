@@ -1,7 +1,7 @@
 @import '~bootstrap/scss/bootstrap';
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-.index-pag {
+.index-page {
   background-image: url(./assets/background-points.png);
   background-size: contain;
 }
@@ -17,9 +17,15 @@ body {
 }
 
 h1 {
+  display: flex;
+  width: 1004px;
+  height: 402px;
+  padding: 104px 647px 246px 01px;
+  align-items: center;
   font-family: 'Poppins', sans-serif;
   border-top: 105px;
   font-weight: 600;
+  text-align:left;
 }
 
 .card h2 {
