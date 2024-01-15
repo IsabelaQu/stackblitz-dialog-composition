@@ -14,9 +14,11 @@ export function DialogRoot({ children }: DialogRootProps) {
   return (
     <div
       className="card shadow-sm rounded m-2"
-      style={{ width: '25rem', ...styleDialogRoot }}
+      style={{ width: '565px',
+       ...styleDialogRoot }}
     >
       <div className="card-body">{children}</div>
     </div>
   );
 }
+

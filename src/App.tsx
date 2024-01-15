@@ -22,9 +22,14 @@ const App: FC<AppProps> = ({ name }) => {
 
   return (
     <div className="container">
+
       <div className="content">
-      <h1>React TSX Starter</h1>
-      <div>A basic Functional Components App and composition components focused on research, featuring React and Twitter Bootstrap.</div>
+        <h1 className='h1-top'>React TSX Starter</h1>
+        <h2 className='simple-text'>A basic Functional Components App and composition components focused on research, featuring React and Twitter Bootstrap.</h2>
+      </div>
+
+      <div className='basic-elements'>
+        <h2 className='title'>Basic Elements</h2>
       </div>
 
       <div className="row">

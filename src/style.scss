@@ -9,24 +9,38 @@ body {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #525f7f;
+  color: #FFFFFFCC;
   text-align:left;
-  background-color: #0b0d27;
+  background-color: #121435;
+  max-width: 100%;
 }
 
-h1 {
-  display: flex;
-  height: 290px;
-  align-items: flex-end;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  text-align:left;
+.content {
+  .h1-top {
+    font-size: 40px;
+    display: flex;
+    height: 290px;
+    align-items: flex-end;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align:left;
+  }
+
+  .simple-text {
+    font-size: 15px;
+  }
 }
 
-.card h2 {
+.basic-elements {
+  .title {
+    font-size: 20px;
+  }
+}
+
+.card.shadow-sm.rounded.m-2 {
   text-align: left;
   margin-top: 30px;
   margin-bottom: 25px;
-  font-weight: 500;
-  color: hsla(0,0%,100%,.8);
+  color: #667292;
+  background: #1F2251;
 }
